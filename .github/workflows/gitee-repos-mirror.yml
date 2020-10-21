@@ -4,6 +4,9 @@ on:
   # push:
     # branches:
       # - master
+  # 手动事件
+  workflow_dispatch:
+  # 计划事件
   schedule:
     # 每天北京时间 9点 运行
     - cron:  '0 1 * * *'
